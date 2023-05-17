@@ -6,7 +6,7 @@ export type Film = {
     filmName: string;
     description: string;
     postDate: Date;
-    genre: Genre[];
+    genre: Genre | string;
     releaseDate: Date;
     rating: number;
     prevVideo: string;
