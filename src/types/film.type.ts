@@ -2,11 +2,12 @@ import { User } from './user.type.js';
 import { Actor } from './actor.type.js';
 import { Genre } from './genre.type.js';
 
+
 export type Film = {
     filmName: string;
     description: string;
     postDate: Date;
-    genre: Genre | string;
+    genre: Genre [];
     releaseDate: Date;
     rating: number;
     prevVideo: string;
