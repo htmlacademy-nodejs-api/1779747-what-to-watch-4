@@ -1,7 +1,6 @@
 export type MockData = {
     filmNames: string[];
     descriptions: string[];
-    // postDate: Date;
     genres: string[];
     releaseDates: number[];
     ratings: number[];
@@ -10,7 +9,6 @@ export type MockData = {
     actors: string[];
     directors: string[];
     durations: number[];
-    // comments: number[];
     userNames: string[];
     emails: string[];
     avatarPaths?: string[];
